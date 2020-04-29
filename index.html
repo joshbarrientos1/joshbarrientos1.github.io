@@ -38,7 +38,7 @@
                     <a class="dropdown-item" href="about.html">About Us</a>
                     <a class="dropdown-item" href="research.html">Research</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="findings.html">Findings</a>
+                    <a class="dropdown-item" href="findings.php">Findings</a>
                 </div>
                 </li>
             </ul>
