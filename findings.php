@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Track COVID-19</title>
+    <title>Predicting COVID-19</title>
     <meta name="description" content="Tracking COVID-19">
     <meta name="author" content="465-EC-Team">
     
@@ -45,7 +45,20 @@
             </div>
         </div>
         </nav>
-    <div>
-    <p class="note note-primary"><strong>Findings:</strong> This is for the findings</p>
+<form method="post">
+  <div class="form-group">
+    <label for="formGroupExampleInput">Enter a rate in decimal form (ie. 50% = 0.5)</label>
+    <input type="text" name = "rate" class="form-control" id="formGroupExampleInput" placeholder="Rate">
+  </div>
+</form>
+
+<?php 
+    $rate = $_POST['rate'];
+    $command = 'python3 seir.py ' . $rate;
+    $python = `$command`;
+    echo $python
+?>
+<img src='my_plot.png'>
+</div>
 </body>
 </html>
