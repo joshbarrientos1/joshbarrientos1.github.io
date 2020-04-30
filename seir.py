@@ -25,7 +25,7 @@ E0 = 113000
 S0 = N - I0 - R0 - E0
 #print(S0)
 # Contact rate (set by user)
-beta = int(sys.argv[1])
+beta = float(sys.argv[1])
 #beta = float(input("Enter how many people outside will you be in contact with per day (can be in decimal): "))
 
 # Source for info below: https://patient.info/news-and-features/coronavirus-how-quickly-do-covid-19-symptoms-develop-and-how-long-do-they-last
