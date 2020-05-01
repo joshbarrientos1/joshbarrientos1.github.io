@@ -3,10 +3,7 @@ gunicorn
 django-heroku
 numpy
 sys
-
-scipy.integrate import 
-matplotlib.pyplot as plt
+scipy.
 time
-
 io
-matplotlib.figure import Figure
+matplotlib
