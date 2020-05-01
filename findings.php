@@ -48,7 +48,7 @@
 <div class="container" style="padding-top: 40px;">
 <form method="post">
   <div class="form-group" style="padding-left: 5%">
-    <label style="color:azure" for="formGroupExampleInput">Here we have a interactive graph produced by Luhan. Enter the number of outside people a person conacts a day.(This can be a decimal)</label>
+    <label style="color:azure" for="formGroupExampleInput">Here we have a interactive graph produced by Luhan. Enter the number of outside people a person conacts a day.(This can be a decimal) Press Enter when ready.</label>
         <div style="width: 160px">
             <input type="text" name = "rate" class="form-control" placeholder="Number of People" aria-label="Username" aria-describedby="basic-addon1">
         </div>
