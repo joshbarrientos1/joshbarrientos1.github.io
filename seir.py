@@ -71,7 +71,7 @@ legend.get_frame().set_alpha(0.5)
 for spine in ('top', 'right', 'bottom', 'left'):
     ax.spines[spine].set_visible(False)
 
-filename = ("images/my_plot_%s.png" %time.time())
+filename = ("images/plots/my_plot_%s.png" %time.time())
 plt.savefig(filename)
 print(filename)
 
