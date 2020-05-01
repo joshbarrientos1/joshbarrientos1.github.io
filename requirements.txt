@@ -3,8 +3,8 @@ gunicorn
 django-heroku
 numpy
 scipy
-io
-
-time
 matplotlib
+
+io
+time
 sys
