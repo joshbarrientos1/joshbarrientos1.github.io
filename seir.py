@@ -2,6 +2,7 @@ import sys
 import numpy as np
 from scipy.integrate import *
 import matplotlib.pyplot as plt
+import time
 
 import io
 from matplotlib.figure import Figure
@@ -70,7 +71,9 @@ legend.get_frame().set_alpha(0.5)
 for spine in ('top', 'right', 'bottom', 'left'):
     ax.spines[spine].set_visible(False)
 
-plt.savefig('my_plot.png')
+filename = ("images/my_plot_%s.png" %time.time())
+plt.savefig(filename)
+print(filename)
 
 # Code reference: https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4
 # https://scipython.com/book/chapter-8-scipy/additional-examples/the-sir-epidemic-model/

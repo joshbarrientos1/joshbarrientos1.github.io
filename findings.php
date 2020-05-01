@@ -54,16 +54,17 @@
         </div>
     </div>
 </form>
-
+<div style="padding-left: 5%; padding-right: 5%; padding-bottom 200 px; padding-right: 5%">
 <?php 
     $rate = $_POST['rate'];
-    $command = 'python3 seir.py ' . $rate;
-    $python = `$command`;
-    echo $python
+    $rate = (float)$rate;
+        $command = 'python3 seir.py ' . $rate;
+        $python = `$command`;
+        // echo $python
+        echo '<img src="'.$python.'"/>';
 ?>
 
-    <div style="padding-left: 5%; padding-right: 5%; padding-bottom 200 px; padding-right: 5%">
-    <img src='images/my_plot.png'>
+
     </div>
 <div>
     <div class="container" style="padding-top: 20px; padding-left: 20%; padding-bottom 200 px; padding-right: 20%">
