@@ -2,3 +2,11 @@ django
 gunicorn
 django-heroku
 numpy
+sys
+
+scipy.integrate import 
+matplotlib.pyplot as plt
+time
+
+io
+matplotlib.figure import Figure
