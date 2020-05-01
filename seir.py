@@ -3,8 +3,6 @@ import numpy as np
 from scipy.integrate import *
 import matplotlib.pyplot as plt
 import time
-
-import io
 from matplotlib.figure import Figure
 
 # we initialize data up till April 12th, 2020
